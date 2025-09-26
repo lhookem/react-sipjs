@@ -11,9 +11,17 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build && tsc"
+    "build": "vite build && tsc",
+    "prepare": "npm run build"
   },
-  "keywords": ["react", "sipjs", "sip", "webrtc", "voip", "call"],
+  "keywords": [
+    "react",
+    "sipjs",
+    "sip",
+    "webrtc",
+    "voip",
+    "call"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -26,7 +34,7 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "sip.js": "^0.21.2"
+    "sip.js": "github:lhookem/SIP.js"
   },
   "publishConfig": {
     "@vanbui1995:registry": "https://npm.pkg.github.com"
